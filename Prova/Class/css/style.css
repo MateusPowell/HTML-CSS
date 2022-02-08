@@ -1,0 +1,22 @@
+.conteiner {
+    display: flex;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;   
+}
+
+body {
+    background-color: #132e4c;    
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+

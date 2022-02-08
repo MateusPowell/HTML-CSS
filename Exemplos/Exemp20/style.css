@@ -1,0 +1,14 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+h1 {
+    color: royalblue;
+}
+a {
+    color: blue;
+    text-decoration:solid;
+}
+h2 {
+    background-color: rgb(20, 231, 73);    
+}
