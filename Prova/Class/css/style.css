@@ -36,3 +36,21 @@ body {
 .change:hover .img-top {
     display: inline;
 } 
+
+a {
+    color:#3D3D3D;
+    border: 2px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.botao1 {
+    width: 100px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #FDFDFD, #DEDEDE);
+    border-radius: 12px;   
+    font-size: small; 
+}
