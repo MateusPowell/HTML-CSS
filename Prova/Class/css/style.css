@@ -6,7 +6,7 @@
     max-height: 200px;
     background-color: white;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 body {
@@ -20,3 +20,19 @@ body {
     align-items: center;
 }
 
+.change {
+    display: inline-block;
+    position: relative;
+}
+
+.change .img-top{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.change:hover .img-top {
+    display: inline;
+} 
