@@ -159,7 +159,8 @@ main p {
 
 .cont {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .contato {
@@ -173,7 +174,13 @@ input {
 }
 
 .box {
-    min-height: 150px;
+    min-height: 100px;
+}
+
+button {    
+    margin: 5px;
+    max-height: 20px;
+    max-width: 50px;
 }
 
 table {
