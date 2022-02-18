@@ -17,6 +17,13 @@ body {
     grid-template-rows: 70px 25px 1fr 50px;
 }
 
+.grid2 {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 70px 25px 1fr 50px;
+}
+
 header {
     grid-column: span 2;
     grid-row: span 2;
@@ -111,9 +118,32 @@ aside div figcaption {
     width: 90%;
 }
 
-
 h1, p {
     margin: 0;
+}
+
+.fim {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bolder;
+}
+
+.eita {
+    width: 100%;
 }
 
 main {
@@ -127,6 +157,47 @@ main p {
     margin-top: 10px;
 }
 
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    min-width: 100vh;
+}
+
+.box {
+    min-height: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #0A4461;
+}
+
 footer {
     grid-column: span 2;
     padding: 0 20px;
@@ -136,12 +207,40 @@ footer {
     align-items: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 2000px) {
     main {
         font-size: 15px;
     }
     aside figcaption {
         font-size: 12px;
+    }
+    .final {
+        font-size: 30px;
+    }
+    .eita {
+        width: 70%;
+    }
+    .port {
+        font-size: 30px;
+    }
+
+    .contato { 
+        width: 200px;   
+    }
+    
+    .box {
+        min-height: 140px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .port {
+        font-size: 22px;
+    }
+    .box {
+        min-height: 90px;
+    }
+    input {
+        min-width: 80vh;
     }
 }
 
@@ -158,7 +257,19 @@ footer {
         grid-template-columns: 30% 70%;
         grid-template-rows: 68px 0px 1fr 50px;
     }
-
+    td {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 2px;
+        font-size: 10px;
+    }
+    
+    th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 1px;
+        font-size: 12px;
+    }
     .logo a {
         padding: 0px 2px;
         justify-content: space-between;
@@ -166,5 +277,14 @@ footer {
     aside figcaption {
         font-size: 12px;
         margin-left: 5px;
+    }
+    .port {
+        font-size: 15px;
+    }
+    .box {
+        min-height: 60px;
+    }
+    input {
+        min-width: 60vh;
     }
 }
